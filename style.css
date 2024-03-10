@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition:margin 0.6s linear ;
+}
+
+.container.up{
+  margin-top: -100vh;
+}
+
+.container ul{
+  display: flex;
+  margin: 0 auto;
+}
+.container ul li{
+  padding: 20px;
+  margin: 10px;
+  list-style: none;
+  width: 200px;
+  height: 200px;
+}
+.container ul li img{
+  width: 100%;
+}
+
+.insectPic{
+  position: absolute;
+}
+.insectPic img{
+  width: 100px;
+}
+
+
+.gamePlay{
+  position: relative;
+}
+
+#time{
+position: absolute;
+top: 20px;
+}
+#score{
+  position: absolute;
+  top:60px;
+}
+#text-annoying{
+  display: none;
+}
